@@ -49,6 +49,7 @@ Plug 'NLKNguyen/papercolor-theme'
 " Initialize plugin system
 call plug#end()
 
+let g:ale_disable_lsp = 1
 set hidden
 set nobackup
 set nowritebackup

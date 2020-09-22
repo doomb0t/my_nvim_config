@@ -1,4 +1,7 @@
 {
+  "markdownlint.onOpen": false,
+  "markdownlint.onChange": false,
+  "markdownlint.onSave": false,
   "python.linting.enabled": false,
   "suggest.echodocSupport": true,
   "diagnostic.displayByAle": true,

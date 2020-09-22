@@ -11,4 +11,7 @@ let g:airline_powerline_fonts = 1
 
 "" Airline is annoying and requires a refresh to remember the active color
 "" scheme.
-autocmd BufWinLeave AirlineRefresh
+augroup statusline
+  autocmd!
+  au  BufWinLeave AirlineRefresh
+augroup END
