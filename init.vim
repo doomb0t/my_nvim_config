@@ -65,7 +65,7 @@ set shortmess+=c
 
 set signcolumn number
 
-source ~/.config/nvim/aleconf.vim
+source ~/.config/nvim/ale-conf.vim
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
